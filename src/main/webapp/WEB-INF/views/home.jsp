@@ -9,6 +9,10 @@
 <body>
 	
 	<h1>Olá mundo</h1>
+	
+	<hr>
+	
+	<a href="showForm">Hello World form</a>
 
 </body>
 </html>
