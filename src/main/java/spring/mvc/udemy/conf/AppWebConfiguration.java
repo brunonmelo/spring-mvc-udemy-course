@@ -6,11 +6,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-import spring.mvc.udemy.controller.HomeController;
-
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackageClasses= {HomeController.class})
+@ComponentScan(basePackages="spring.mvc.udemy")
 public class AppWebConfiguration {
 	
 	@Bean
